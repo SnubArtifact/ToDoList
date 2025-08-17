@@ -9,7 +9,7 @@ const useDeleteTodo = (todos, onDelete) => {
     const updatedTodos = todos.map(todo =>
       todo.id === id ? { ...todo, completed: !todo.completed } : todo
     );
-    onDelete(updatedTodos); // Using the same callback to update todos
+    onDelete(updatedTodos); 
   };
 
   return { deleteTodo, toggleTodo };
