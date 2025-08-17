@@ -1,0 +1,69 @@
+.todo-container {
+ 
+  max-width: 1000px;
+  width: 100%;
+  height:78vh;
+
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius:10px;
+  
+}
+
+.todo-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+button{
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.2s;
+}
+button:hover {
+  background-color: #434643;
+}
+
+.todo-table th, .todo-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+}
+
+.todo-table th {
+  background-color: #000000;
+  color: white;
+  font-weight: bold;
+}
+
+.todo-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+.task-header {
+  width: 60%;
+}
+
+.due-date-header {
+  width: 40%;
+}
+
+.task-cell {
+  font-weight: 500;
+}
+
+.due-date-cell {
+  color: #666;
+}
+.actions-cell{
+    display: flex;
+    gap: 10px;
+}
+
